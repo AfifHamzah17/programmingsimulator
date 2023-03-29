@@ -1,0 +1,8 @@
+﻿"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(19) : eval()'d code:4
+Stack trace:
+#0 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"

@@ -1,0 +1,169 @@
+message,parse,fatal,warning,notice
+Use of undefined constant i - assumed 'i' (this will throw an Error in a future version of PHP),0,1,0,0
+"syntax error: unexpected '++' (T_INC), expecting ','",1,0,0,0
+Undefined variable: a,0,0,0,1
+Undefined variable: values,0,0,0,1
+Invalid argument supplied for foreach(),0,0,1,0
+Uncaught Error: Call to undefined function arrayy,0,1,0,0
+Undefined variable: value,0,0,0,1
+Array to string conversion,0,0,0,1
+syntax error: unexpected 'square' (T_STRING) expecting '' or ')',1,0,0,0
+syntax error: unexpected '$i' (T_VARIABLE) expecting '' or ')',1,0,0,0
+syntax error: unexpected expecting or ')'",1,0,0,0
+Undefined variable: b,0,0,0,1
+Uncaught Error: Call to undefined function arr,0,1,0,0
+Uncaught Error: Call to undefined function sum,0,1,0,0
+Undefined variable: var,0,0,0,1
+syntax error: unexpected '}' expecting end of file,1,0,0,0
+"syntax error: unexpected '"" expecting '' or '' ",1,0,0,0
+Undefined variable: varr,0,0,0,1
+parse_url() expects at least 1 parameter 0 given in <path>,0,0,1,0
+syntax error: unexpected 'echo' (T_ECHO),1,0,0,0
+failed to open stream,0,0,1,0
+Use of undefined constant section- assumed 'section',0,1,0,0
+"syntax error: unexpected '}' expecting ',' or ','",1,0,0,0
+Invalid argument supplied for foreach(),0,0,1,0
+syntax error: unexpected '>' expecting end of file,1,0,0,0
+Invalid argument supplied for foreach(),0,0,1,0
+syntax error: unexpected '=',1,0,0,0
+syntax error: unexpected 'while',1,0,0,0
+Invalid argument supplied for foreach(),0,0,1,0
+syntax error: unexpected end of file,1,0,0,0"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"Error: Undefined variable: animals_list in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code(5): {closure}(8, 'Undefined varia...', '/Applications/X...', 5, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23): eval()
+#2 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code:5
+Stack trace:
+#0 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code:5
+Stack trace:
+#0 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code:5
+Stack trace:
+#0 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code:5
+Stack trace:
+#0 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(23) : eval()'d code:5
+Stack trace:
+#0 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(30) : eval()'d code:4
+Stack trace:
+#0 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code:4
+Stack trace:
+#0 {main}"
+"Error: [ERROR]: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:28
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39): eval()
+#2 {main}"
+"Error: [ERROR2]: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:28
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39): eval()
+#2 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code:4
+Stack trace:
+#0 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code:4
+Stack trace:
+#0 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code:4
+Stack trace:
+#0 {main}"
+"Error: [ERROR2]: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:28
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39): eval()
+#2 {main}"
+"Error: Call to undefined function arrayy() in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39): eval()
+#1 {main}"
+"Error: Call to undefined function arrayy() in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39): eval()
+#1 {main}"
+"Error: [ERROR2]: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:28
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39): eval()
+#2 {main}"
+"Error: [ERROR2]: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:28
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39): eval()
+#2 {main}"
+"Error: [ERROR2]: Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:28
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39): eval()
+#2 {main}"
+"Error: [ERROR2]: Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:28
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39): eval()
+#2 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(39) : eval()'d code:4
+Stack trace:
+#0 {main}"
+"ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(43) : eval()'d code:4
+Stack trace:
+#0 {main}"
+"Error: Undefined variable: values in /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php:34
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(43) : eval()'d code(4): {closure}(8, 'Undefined varia...', '/Applications/X...', 4, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/simulator/execute.php(43): eval()
+#2 {main}"
