@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This code can be run on server side to execute PHP code from the interactive editor.
  * 
@@ -10,14 +11,14 @@
  * 
  * @author: Nils Reimers, www.php-einfach.de
  */
-set_error_handler(function($_errno, $errstr){
+set_error_handler(function ($_errno, $errstr) {
 	// $errmsg = substr($e, 0, 15);
 	// echo $errmsg;
 
 	// if(str_contains($errmsg, 'ParseError')){
 	// 	echo  "Possible Cause: <b>Syntax Error</b></br> 1. There should be a variable mistake in your syntax right after PHP tag, since it is not identified previously";
 	// }
-	switch ($_errno){
+	switch ($_errno) {
 		case 1:
 			throw new ParseError("[ParseERROR]: " . $errstr);
 			break;
@@ -34,24 +35,24 @@ set_error_handler(function($_errno, $errstr){
 	throw new Error($errstr);
 });
 
-try{
-session_start();
-$code = $_POST['phpeinfach_code_compile'];
-header("Access-Control-Allow-Origin: *");
-ob_start();
+try {
+	session_start();
+	$code = $_POST['phpeinfach_code_compile'];
+	header("Access-Control-Allow-Origin: *");
+	ob_start();
 
-	eval(' ?>'.$code);
+	eval(' ?>' . $code);
 	$output = ob_get_contents();
 	ob_end_clean();
 
-	if(strlen($output) > 512*1024) {
+	if (strlen($output) > 512 * 1024) {
 		echo "<strong>Error</strong> - Output exceeded the limit. The first 1024 characters were:<br />";
 		echo substr($output, 0, 1024);
 		die();
 	} else {
 		echo $output;
 	}
-}catch(ParseError $e){
+} catch (ParseError $e) {
 	echo "[PARSE ERROR]: " . $e;
 	echo "<br/><br/>Probable Cause: <br/> 1. There is unclosed syntax, please check every bracket and semicolon in your syntax";
 
@@ -59,11 +60,11 @@ ob_start();
 	fputcsv($handle, array($e));
 	fclose($handle);
 
-	$input= $e;
-	$command = escapeshellcmd('classify.py '.$input);
+	$input = $e;
+	$command = escapeshellcmd('classify.py ' . $input);
 	$output = exec($command);
 	echo $output;
-}catch(Error $e){
+} catch (Error $e) {
 	echo "[NOTICE ERROR]: " . $e;
 	echo "<br/><br/>Probable Cause: <br/> 1. There is a undefined variable syntax, please define every variable before you use it";
 
@@ -71,11 +72,11 @@ ob_start();
 	fputcsv($handle, array($e));
 	fclose($handle);
 
-	$input= $e;
-	$command = escapeshellcmd('classify.py '.$input);
+	$input = $e;
+	$command = escapeshellcmd('classify.py ' . $input);
 	$output = exec($command);
 	echo $output;
-}catch(ErrorException $e){
+} catch (ErrorException $e) {
 	echo "[FATAL ERROR]: " . $e;
 	echo "<br/><br/>Probable Cause: <br/> 1. There is a variable mistake in your syntax, the structure is good but please check again the typo";
 
@@ -83,8 +84,8 @@ ob_start();
 	fputcsv($handle, array($e));
 	fclose($handle);
 
-	$input= $e;
-	$command = escapeshellcmd('classify.py '.$input);
+	$input = $e;
+	$command = escapeshellcmd('classify.py ' . $input);
 	$output = exec($command);
 	echo $output;
 }

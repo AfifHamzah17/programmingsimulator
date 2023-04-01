@@ -19,7 +19,7 @@
 <script src="assets/js/custom.js"></script>
 <script>
     jQuery('div[data-ace-editor-id]').each(function() {
-        var url = 'http://10.212.164.94:80/simulator/execute.php';
+        var url = 'http://execute.php-einfach.de:9999/execute.php';
         //var url='proxy.php'; // In case the browser supports cross domain requests, you can use this proxy script to forward the requests over your own server
         var language = 'en'; //Choose 'de' for German
         new OnlinePHPEditor(this, language, url);

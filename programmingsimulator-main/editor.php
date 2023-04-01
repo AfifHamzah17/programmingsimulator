@@ -20,7 +20,7 @@
 
 echo "Hi and welcome for our Online PHP Editor."
 
-? &gt;</pre>
+?&gt;</pre>
                                 </div>
                             </div>
                         </div>
